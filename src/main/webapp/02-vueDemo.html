@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<div id="app">
+    <a v-bind:href="url">百度一下</a>
+    <!--
+        v-bing 可以省略
+    -->
+    <a :href="url">点击一下</a>
+    <!--这里把输入框绑定url，这样输入什么，前面的两个超链接都会变成与输入内容相同的内容-->
+    <input v-model="url">
+
+    <!--为HTML标签绑定事件,v-on可以写作@click-->
+    <input type="button" value="一个按钮" v-on:click="show()">
+    <input type="button" value="一个按钮" @click="show()">
+
+
+    <div  v-if="count == 1">
+        <input type="button" value="div1">
+    </div>
+
+    <div  v-else-if="count == 2">
+        <input type="button" value="div2">
+    </div>
+
+    <div  v-else>
+        <input type="button" value="div3">
+    </div>
+    <input type="text" v-model="count">
+
+    <!--v-show作用和v-if一样，满足条件才渲染内容-->
+    <div v-show="count == 4">
+        <input type="button" value="div4">
+    </div>
+
+
+    <!--遍历生成时是把div标签生成了三次-->
+    <div v-for="addr in addrs">
+        {{addr}}<br>
+    </div>
+    <hr>
+    <!--可通过该形式添加索引（即数组下标，i从0开始）-->
+    <div v-for="(addr,i) in addrs">
+        {{i + 1}}--{{addr}}
+    </div>
+
+</div>
+<!--直接引入本地js文件-->
+<!--<script src="js/vue.js"></script>-->
+
+<!--在线方式引入vue.js的2.7.4版本-->
+<script src="https://unpkg.com/vue@2.7.4"></script>
+<script>
+    //1.创建Vue核心对象
+    new Vue({
+        el:"#app",
+        data(){
+            return{
+                url:"https://www.baidu.com",
+                count:2,
+                addrs:["www.baidu.com","www.libvio.me","www.google.com"]
+            }
+        },
+        //注意是methods
+        methods:{
+            show(){
+                alert("我被点了");
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

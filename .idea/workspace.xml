@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="337669ab-7f63-4d7f-a129-6ef8328a5368" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db1@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db1: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db1: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tb_brand: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\IDEA\InstallFile\IntelliJ IDEA 2019.3.3\plugins\maven\lib\maven3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BsxmWdjVPabsTAs40ArHU7n4xM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../ajax-demo/src/main/java/com/cqupt/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\Workspace\brand_demo_new\src\main\webapp" />
+      <recent name="D:\IDEA\Workspace\element-demo\src\main\webapp" />
+      <recent name="D:\IDEA\Workspace\brand_demo\src\main\webapp\element-ui" />
+      <recent name="D:\IDEA\Workspace\brand_demo\src\main\webapp" />
+      <recent name="D:\IDEA\Workspace\brand_demo\src\main\webapp\js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cqupt.web" />
+      <recent name="com.cqupt.web.servlet" />
+      <recent name="com.cqupt.web.filter" />
+      <recent name="com.cqupt.pojo" />
+      <recent name="com.cqupt.mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\Workspace\ajax-demo\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FastJSONDemo1">
+    <configuration name="CheckCodeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cqupt.util.CheckCodeUtil" />
+      <module name="brand_demo_new" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cqupt.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FastJSONDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cqupt.json.FastJSONDemo1" />
+      <module name="ajax-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cqupt.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FastJSONDemo1" />
+        <item itemvalue="Application.CheckCodeUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="337669ab-7f63-4d7f-a129-6ef8328a5368" name="Default Changelist" comment="" />
+      <created>1657708752913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657708752913</updated>
+      <workItem from="1657708756235" duration="5377000" />
+      <workItem from="1657784378387" duration="12258000" />
+      <workItem from="1658112167137" duration="650000" />
+      <workItem from="1658287582910" duration="10658000" />
+      <workItem from="1659281961151" duration="901000" />
+      <workItem from="1659609724912" duration="21937000" />
+      <workItem from="1660011451490" duration="37032000" />
+      <workItem from="1660295284154" duration="2309000" />
+      <workItem from="1660297709197" duration="12236000" />
+      <workItem from="1660357158461" duration="4544000" />
+      <workItem from="1660361761563" duration="20184000" />
+      <workItem from="1660474415104" duration="33000" />
+      <workItem from="1660474465616" duration="15529000" />
+      <workItem from="1660731387531" duration="11022000" />
+      <workItem from="1660787911827" duration="699000" />
+      <workItem from="1660880908080" duration="8576000" />
+      <workItem from="1660962690495" duration="2239000" />
+      <workItem from="1661053853552" duration="11920000" />
+      <workItem from="1661168703762" duration="9854000" />
+      <workItem from="1661232510925" duration="10077000" />
+      <workItem from="1665393459400" duration="94000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="340" y="109" key="#Project_Structure" timestamp="1660022485624">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="340" y="109" key="#Project_Structure/0.0.1493.893/0.1400.1536.920@0.0.1493.893" timestamp="1660022485624" />
+    <state x="413" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1657791436493">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="413" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1493.893/2240.0.1536.920@0.0.1493.893" timestamp="1657791436493" />
+    <state x="711" y="193" key="#com.intellij.ide.util.MemberChooser" timestamp="1661171085531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1687" y="168" key="#com.intellij.ide.util.MemberChooser/-2240.0.1493.906/0.0.1920.1040@-2240.0.1493.906" timestamp="1659686382487" />
+    <state x="711" y="193" key="#com.intellij.ide.util.MemberChooser/-2240.0.1493.906/0.0.1920.1040@0.0.1920.1040" timestamp="1661171085531" />
+    <state x="553" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1493.893/0.1400.1536.920@0.0.1493.893" timestamp="1660315409323" />
+    <state x="553" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1493.893/2240.0.1536.920@0.0.1493.893" timestamp="1657789301014" />
+    <state x="553" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1493.893@0.0.1493.893" timestamp="1660707946346" />
+    <state x="2473" y="88" key="#com.intellij.ide.util.MemberChooser/1920.-80.1493.906/0.0.1920.1040@1920.-80.1493.906" timestamp="1659623509638" />
+    <state x="599" y="339" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1657708791008">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="599" y="339" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1493.893/2240.0.1536.920@0.0.1493.893" timestamp="1657708791008" />
+    <state x="478" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1660297463452">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="478" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1493.893/0.1400.1536.920@0.0.1493.893" timestamp="1660297463452" />
+    <state x="478" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1493.893/2240.0.1536.920@0.0.1493.893" timestamp="1657788642678" />
+    <state x="508" y="307" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1660476630619">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="508" y="307" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1493.893/0.1400.1536.920@0.0.1493.893" timestamp="1660476630619" />
+    <state width="1877" height="17" key="GridCell.Tab.0.bottom" timestamp="1661353224829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1450" height="257" key="GridCell.Tab.0.bottom/-2240.0.1493.906/0.0.1920.1040@-2240.0.1493.906" timestamp="1659694546262" />
+    <state width="1877" height="17" key="GridCell.Tab.0.bottom/-2240.0.1493.906/0.0.1920.1040@0.0.1920.1040" timestamp="1661353224829" />
+    <state width="1450" height="142" key="GridCell.Tab.0.bottom/0.0.1493.893/-1920.0.1536.920@0.0.1493.893" timestamp="1658290861900" />
+    <state width="1450" height="212" key="GridCell.Tab.0.bottom/0.0.1493.893/0.1400.1536.920@0.0.1493.893" timestamp="1660726312706" />
+    <state width="1450" height="312" key="GridCell.Tab.0.bottom/0.0.1493.893/2240.0.1536.920@0.0.1493.893" timestamp="1658310368639" />
+    <state width="702" height="224" key="GridCell.Tab.0.bottom/0.0.1493.893@0.0.1493.893" timestamp="1661090452182" />
+    <state width="1450" height="173" key="GridCell.Tab.0.bottom/1920.-80.1493.906/0.0.1920.1040@1920.-80.1493.906" timestamp="1659673110482" />
+    <state width="1877" height="17" key="GridCell.Tab.0.center" timestamp="1661353224829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1450" height="257" key="GridCell.Tab.0.center/-2240.0.1493.906/0.0.1920.1040@-2240.0.1493.906" timestamp="1659694546262" />
+    <state width="1877" height="17" key="GridCell.Tab.0.center/-2240.0.1493.906/0.0.1920.1040@0.0.1920.1040" timestamp="1661353224829" />
+    <state width="1450" height="142" key="GridCell.Tab.0.center/0.0.1493.893/-1920.0.1536.920@0.0.1493.893" timestamp="1658290861900" />
+    <state width="1450" height="212" key="GridCell.Tab.0.center/0.0.1493.893/0.1400.1536.920@0.0.1493.893" timestamp="1660726312706" />
+    <state width="1450" height="312" key="GridCell.Tab.0.center/0.0.1493.893/2240.0.1536.920@0.0.1493.893" timestamp="1658310368638" />
+    <state width="702" height="224" key="GridCell.Tab.0.center/0.0.1493.893@0.0.1493.893" timestamp="1661090452182" />
+    <state width="1450" height="173" key="GridCell.Tab.0.center/1920.-80.1493.906/0.0.1920.1040@1920.-80.1493.906" timestamp="1659673110481" />
+    <state width="1877" height="17" key="GridCell.Tab.0.left" timestamp="1661353224829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1450" height="257" key="GridCell.Tab.0.left/-2240.0.1493.906/0.0.1920.1040@-2240.0.1493.906" timestamp="1659694546261" />
+    <state width="1877" height="17" key="GridCell.Tab.0.left/-2240.0.1493.906/0.0.1920.1040@0.0.1920.1040" timestamp="1661353224829" />
+    <state width="1450" height="142" key="GridCell.Tab.0.left/0.0.1493.893/-1920.0.1536.920@0.0.1493.893" timestamp="1658290861899" />
+    <state width="1450" height="212" key="GridCell.Tab.0.left/0.0.1493.893/0.1400.1536.920@0.0.1493.893" timestamp="1660726312706" />
+    <state width="1450" height="312" key="GridCell.Tab.0.left/0.0.1493.893/2240.0.1536.920@0.0.1493.893" timestamp="1658310368638" />
+    <state width="702" height="224" key="GridCell.Tab.0.left/0.0.1493.893@0.0.1493.893" timestamp="1661090452182" />
+    <state width="1450" height="173" key="GridCell.Tab.0.left/1920.-80.1493.906/0.0.1920.1040@1920.-80.1493.906" timestamp="1659673110481" />
+    <state width="1877" height="17" key="GridCell.Tab.0.right" timestamp="1661353224829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1450" height="257" key="GridCell.Tab.0.right/-2240.0.1493.906/0.0.1920.1040@-2240.0.1493.906" timestamp="1659694546262" />
+    <state width="1877" height="17" key="GridCell.Tab.0.right/-2240.0.1493.906/0.0.1920.1040@0.0.1920.1040" timestamp="1661353224829" />
+    <state width="1450" height="142" key="GridCell.Tab.0.right/0.0.1493.893/-1920.0.1536.920@0.0.1493.893" timestamp="1658290861900" />
+    <state width="1450" height="212" key="GridCell.Tab.0.right/0.0.1493.893/0.1400.1536.920@0.0.1493.893" timestamp="1660726312706" />
+    <state width="1450" height="312" key="GridCell.Tab.0.right/0.0.1493.893/2240.0.1536.920@0.0.1493.893" timestamp="1658310368638" />
+    <state width="702" height="224" key="GridCell.Tab.0.right/0.0.1493.893@0.0.1493.893" timestamp="1661090452182" />
+    <state width="1450" height="173" key="GridCell.Tab.0.right/1920.-80.1493.906/0.0.1920.1040@1920.-80.1493.906" timestamp="1659673110481" />
+    <state x="293" y="28" key="SettingsEditor" timestamp="1660923813522">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-2012" y="25" key="SettingsEditor/-2240.0.1493.906/0.0.1920.1040@-2240.0.1493.906" timestamp="1659690434622" />
+    <state x="293" y="28" key="SettingsEditor/-2240.0.1493.906/0.0.1920.1040@0.0.1920.1040" timestamp="1660923813522" />
+    <state x="228" y="24" key="SettingsEditor/0.0.1493.893/0.1400.1536.920@0.0.1493.893" timestamp="1660476781065" />
+    <state x="235" y="1425" key="SettingsEditor/0.0.1493.893/0.1400.1536.920@0.1400.1536.920" timestamp="1660014219364" />
+    <state x="228" y="24" key="SettingsEditor/0.0.1493.893@0.0.1493.893" timestamp="1660439722530" />
+    <state x="2148" y="-55" key="SettingsEditor/1920.-80.1493.906/0.0.1920.1040@1920.-80.1493.906" timestamp="1659623153836" />
+    <state x="566" y="1641" key="chooseDestDirectoryDialog" timestamp="1660014361216">
+      <screen x="0" y="1400" width="1536" height="920" />
+    </state>
+    <state x="566" y="1641" key="chooseDestDirectoryDialog/0.0.1493.893/0.1400.1536.920@0.1400.1536.920" timestamp="1660014361216" />
+    <state x="174" y="175" key="new project wizard" timestamp="1661351939140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-2105" y="152" key="new project wizard/-2240.0.1493.906/0.0.1920.1040@-2240.0.1493.906" timestamp="1659690430604" />
+    <state x="174" y="175" key="new project wizard/-2240.0.1493.906/0.0.1920.1040@0.0.1920.1040" timestamp="1661351939140" />
+    <state x="135" y="150" key="new project wizard/0.0.1493.893@0.0.1493.893" timestamp="1660439718298" />
+    <state x="2055" y="72" key="new project wizard/1920.-80.1493.906/0.0.1920.1040@1920.-80.1493.906" timestamp="1659623150721" />
+    <state x="404" y="240" key="run.anything.popup" timestamp="1660127551859">
+      <screen x="0" y="0" width="1493" height="893" />
+    </state>
+    <state x="404" y="240" key="run.anything.popup/0.0.1493.893/0.1400.1536.920@0.0.1493.893" timestamp="1660127551859" />
+    <state x="2324" y="164" key="run.anything.popup/1920.-80.1493.906/0.0.1920.1040@1920.-80.1493.906" timestamp="1659671969240" />
+    <state x="527" y="220" width="865" height="790" key="search.everywhere.popup" timestamp="1660761955377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="527" y="220" width="865" height="790" key="search.everywhere.popup/-2240.0.1493.906/0.0.1920.1040@0.0.1920.1040" timestamp="1660761955377" />
+    <state x="410" y="189" width="672" height="678" key="search.everywhere.popup/0.0.1493.893/0.1400.1536.920@0.0.1493.893" timestamp="1660311863119" />
+    <state x="410" y="189" width="672" height="678" key="search.everywhere.popup/0.0.1493.893/2240.0.1536.920@0.0.1493.893" timestamp="1658308504667" />
+    <state x="410" y="189" width="672" height="678" key="search.everywhere.popup/0.0.1493.893@0.0.1493.893" timestamp="1660724921240" />
+  </component>
+</project>

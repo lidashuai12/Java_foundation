@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app1">
+<form action="" method="post">
+    品牌名称：<input name="brandName" id="brandName" v-model="brand.brandName"><br>
+    企业名称：<input name="companyName" id="companyName" v-model="brand.companyName"><br>
+    排序：<input name="ordered" id="ordered" v-model="brand.ordered"><br>
+    描述信息：<textarea rows="5" cols="20" name="description" id="description" v-model="brand.description"></textarea><br>
+    状态：
+    <input type="radio" name="status" value="0" v-model="brand.status">禁用
+    <input type="radio" name="status" value="1" v-model="brand.status">启用
+
+    <input type="button" id="btn" value="提交" v-on:click="submit()">
+</form>
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!--在线方式引入vue.js的2.7.4版本-->
+<script src="https://unpkg.com/vue@2.7.4"></script>
+<script>
+    //给按钮绑定一个单击事件
+    new Vue({
+
+        el:"#app1",
+        methods:{
+            submit(){
+                var _this = this;
+                axios({
+                    method:"post",
+                    url:"http://localhost:8080/brand_demo_new/addServlet_01",
+                    dataType:"json",
+                    data:_this.brand
+                }).then(function (resp) {
+                    if (resp.data === "success"){
+                        location.href = "http://localhost:8080/brand_demo/brand-json.html";
+                    }
+                })
+            }
+        },
+        data(){
+            return{
+                brand:{}
+            }
+        }
+
+    })
+   /* //1.给btn按钮绑定一个单击事件
+    document.getElementById("btn").onclick = function(){
+        //处理表单数据，转为JSON
+        var formData = {
+            brandName: "",
+            companyName: "",
+            ordered: "",
+            description: "",
+            status: "",
+        };
+        //获取表单数据
+        let brandName = document.getElementById("brandName").value;
+        //设置JSON对象的值
+        formData.brandName = brandName;
+
+        let companyName = document.getElementById("companyName").value;
+        formData.companyName = companyName;
+        let ordered = document.getElementById("ordered").value;
+        formData.ordered = ordered;
+        let description = document.getElementById("description").value;
+        formData.description = description;
+        //status项有两个标签且没有id，做法是哪个被选中了，就把哪个的值赋给JSON中的值
+        let status = document.getElementsByName("status");
+        for (let i = 0; i < status.length; i++) {
+            //利用checked属性，如果被选中，该属性为true
+            if (status[i].checked){
+                formData.status = status[i].value;
+            }
+        }
+        console.log(formData);
+
+
+        //发送ajax请求
+        axios({
+            method:"post",
+            url:"http://localhost:8080/brand_demo/addServlet_01",
+            dataType:"json",
+            data:formData
+        }).then(function (resp) {
+            //判断响应数据是否为success
+            if(resp.data === "success"){
+                //成功，跳转到brand-json.html中
+                location.href = "http://localhost:8080/brand_demo/brand-json.html";
+            }
+        })
+    }*/
+
+
+</script>
+
+</body>
+</html>

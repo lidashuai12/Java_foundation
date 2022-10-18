@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<a href="addBrand.html"><input type="button" value="新增"></a><br>
+<hr>
+<table id="brandTable" border="1" cellspacing="0" width="100%">
+    <!--表头行-->
+    <tr>
+        <th>序号</th>
+        <th>品牌名称</th>
+        <th>企业名称</th>
+        <th>排序</th>
+        <th>品牌介绍</th>
+        <th>状态</th>
+        <th>操作</th>
+    </tr>
+    <!--
+        使用v-for遍历该tr
+    -->
+    <tr align="center" v-for="(brand,i) in brands">
+        <td>{{i + 1}}</td>
+        <td>{{brand.brandName}}</td>
+        <td>{{brand.companyName}}</td>
+        <td>{{brand.ordered}}</td>
+        <td>{{brand.description}}</td>
+        <td>{{brand.status}}</td>
+        <td><a href="#">修改</a> <a href="#">删除</a></td>
+    </tr>
+
+</table>
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!--在线方式引入vue.js的2.7.4版本-->
+<script src="https://unpkg.com/vue@2.7.4"></script>
+
+
+<!--引入ElementUI-->
+<!-- 引入样式 -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<!-- 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+
+<script>
+    new Vue({
+        el:"#app",
+        data(){
+            return{
+                brands:[]
+            }
+        },
+        mounted(){
+            //页面加载完成后发送异步请求查询数据
+            var _this = this;
+            axios({
+                method:"get",
+                url:"http://localhost:8080/brand_demo/selectAllServlet_01",
+                dataType:"json"
+            }).then(function (resp) {
+                //返回的JSON数据需要在data()中使用，所以接收JSON的变量应该设置为一个模型，这个对象要在data()内声明
+                //并用this.rands调用，但在axios中this指的是window对象，所以取个巧，在axios外声明一个_this变量指向Vue对象自身
+                //再在axios中使用_this来调用Vue的brands模型接收JSON数据。相当于是将Vue的this的作用范围扩大到axios内了。
+                _this.brands = resp.data;
+            })
+        }
+    })
+
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ajax-demo/ajax-demo.iml" filepath="$PROJECT_DIR$/../ajax-demo/ajax-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/brand_demo_new.iml" filepath="$PROJECT_DIR$/brand_demo_new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../element-demo/element-demo.iml" filepath="$PROJECT_DIR$/../element-demo/element-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../filter-demo/filter-demo.iml" filepath="$PROJECT_DIR$/../filter-demo/filter-demo.iml" />
+    </modules>
+  </component>
+</project>

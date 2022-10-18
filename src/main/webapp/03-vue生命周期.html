@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<div id="app">
+    <!--可通过该形式添加索引（即数组下标，i从0开始）-->
+    <div v-for="(addr,i) in addrs">
+        {{i + 1}}--{{addr}}
+    </div>
+
+</div>
+<!--直接引入本地js文件-->
+<!--<script src="js/vue.js"></script>-->
+
+<!--在线方式引入vue.js的2.7.4版本-->
+<script src="https://unpkg.com/vue@2.7.4"></script>
+<script>
+    //1.创建Vue核心对象
+    new Vue({
+        el:"#app",
+        data(){
+            return{
+                url:"https://www.baidu.com",
+                count:2,
+                addrs:["www.baidu.com","www.libvio.me","www.google.com"]
+            }
+        },
+        //注意是methods
+        methods:{
+            show(){
+                alert("我被点了");
+            }
+        },
+        /*
+        类似data的写法，可以简化
+        mounted:function () {
+
+        }*/
+        mounted(){
+            alert("加载完成");
+        }
+
+    });
+</script>
+
+</body>
+</html>
